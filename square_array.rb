@@ -1,4 +1,3 @@
-def square_array(array, elemenmt)
-  elememt = []
-  array.each { |i| element << i ** 2 }
+def square_array(array)
+  array.each { |i| array << i ** 2 }
 end
